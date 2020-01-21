@@ -12,3 +12,4 @@
 #### 数据集文件格式见[https://github.com/mohuazheliu/ResUnet-a/blob/master/dataset-postdam/train/README.md]
 ## Predict
 #### 参照test.py 使用model.predict对一张图片进行预测，使用model.visual可视化预测
+## 训练损失及测试结果后续更新
