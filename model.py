@@ -140,21 +140,29 @@ class UNet(object):
         self.model.load_weights(path)
 
     def predict(self,img):
-        img=img-MEAN
-        return self.model.predict(img)
+        img=img-self.config.MEAN
+        img=np.expand_dims(img,axis=0)
+        img=self.model.predict(img)
+        img=img[0]
+        result=np.argmax(img,axis=-1)
+        return result
+
     def visual(self,img,path):
-        sub_class=int(pow(self.config.CLASSES_NUM,1/3))
+        sub_class=math.ceil(pow(self.config.CLASSES_NUM,1/3))
         delta=int(255/sub_class)
         color=[]
         curcolor=[0,0,0]
+        result=np.zeros(shape(self.config.IMAGE_H,self.config.IMAGE_W,3),dtype="uint8")
         for i in range(sub_class):
             curcolor[0]=curcolor[0]+delta
-                for j in range(sub_class):
-                    curcolor[1]=curcolor[1]+delta
-                        for k in range(sub_class):
-                            curcolor[2]=curcolor[2]+delta
-                            color.append(curcolor)
+            for j in range(sub_class):
+            curcolor[1]=curcolor[1]+delta
+                for k in range(sub_class):
+                    curcolor[2]=curcolor[2]+delta
+                    color.append([curcolor[0],curcolor[1],curcolor[2]])
+                curcolor[2]=0
+            curcolor[1]=0
         for y in range(img.shape[0]):
             for x in range(img.shape[1]):
-                img[y,x]=color[img[y,x,0]]
-        cv2.imwrite(path,img)
+                result[y,x,:]=np.asarray(color[int(img[y,x])],dtype="uint8")
+        cv2.imwrite(path,result)
