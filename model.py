@@ -8,7 +8,8 @@ from keras.applications.resnet50 import ResNet50
 
 from config import UnetConfig
 import utils
-
+import math
+import numpy as np
 class UNet(object):
     def __init__(self, config=UnetConfig()):
         self.config = config
@@ -134,4 +135,26 @@ class UNet(object):
         trainCounts = len(train_datasets)
         valCounts = len(val_datasets)
         model.fit_generator(generator=train_datasets,epochs=self.config.EPOCHS,validation_data=val_datasets,callbacks=callbacks, max_queue_size=10,workers=8,use_multiprocessing=True)
+    
+    def loadWeight(self,path):
+        self.model.load_weights(path)
 
+    def predict(self,img):
+        img=img-MEAN
+        return self.model.predict(img)
+    def visual(self,img,path):
+        sub_class=int(pow(self.config.CLASSES_NUM,1/3))
+        delta=int(255/sub_class)
+        color=[]
+        curcolor=[0,0,0]
+        for i in range(sub_class):
+            curcolor[0]=curcolor[0]+delta
+                for j in range(sub_class):
+                    curcolor[1]=curcolor[1]+delta
+                        for k in range(sub_class):
+                            curcolor[2]=curcolor[2]+delta
+                            color.append(curcolor)
+        for y in range(img.shape[0]):
+            for x in range(img.shape[1]):
+                img[y,x]=color[img[y,x,0]]
+        cv2.imwrite(path,img)
