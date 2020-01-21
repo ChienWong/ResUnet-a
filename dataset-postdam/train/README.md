@@ -1,0 +1,9 @@
+# 数据集格式
+## |---image
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---0.png
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---1.png
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+## |---label
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---0.png
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---1.png
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
