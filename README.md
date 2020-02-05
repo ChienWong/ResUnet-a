@@ -25,4 +25,5 @@
 ![2](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/7-true.png)![2](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/7-label.png)
 ![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/12-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/12-label.png)
 ![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/14-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/14-label.png)
-## 预训练模型后续更新
+#### 预训练模型下载
+##### [OneDrive](https://1drv.ms/u/s!ApOgV5zmgyrmhwQsafmdwnxjD27m?e=WW9H84)
