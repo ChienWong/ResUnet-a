@@ -15,4 +15,9 @@
 #### 参照test.py 使用model.predict对一张图片进行预测，使用model.visual可视化预测
 ### 细微差别
 #### 关于PSPPooling的实现方法略有不同，这里参照了PSPNet的做法
-## 训练损失，测试结果及预训练模型后续更新
+#### 这边将图片压缩一倍后进行训练，训练损失和验证损失
+![train accuracy](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/train_acc.png)
+![train_loss](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/train_loss.png)
+![val_accuracy](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/val_acc.png)
+![val_loss](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/val_loss.png)
+## 测试结果及预训练模型后续更新
