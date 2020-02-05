@@ -20,4 +20,9 @@
 ![train_loss](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/train_loss.png)
 ![val_accuracy](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/val_acc.png)
 ![val_loss](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/val_loss.png)
-## 测试结果及预训练模型后续更新
+#### 测试结果
+![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/0-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/0-label.png)
+![2](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/7-true.png)![2](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/7-label.png)
+![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/12-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/12-label.png)
+![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/14-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/14-label.png)
+## 预训练模型后续更新
