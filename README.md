@@ -33,5 +33,6 @@
 ![val_loss](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/val_loss_paris.png)
 #### 测试结果
 ![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/150-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/150-label.png)
+### 预训练模型下载
 #### [OneDrive-Paris](https://1drv.ms/u/s!ApOgV5zmgyrmhwcbPe_WhkUm9uZY?e=YnGYxX)
 
