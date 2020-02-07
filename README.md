@@ -21,12 +21,19 @@
 ![train_loss](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/train_loss.png)
 ![val_accuracy](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/val_acc.png)
 ![val_loss](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/val_loss.png)
-### 测试结果
-![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/0-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/0-label.png)
-![2](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/7-true.png)![2](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/7-label.png)
-![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/12-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/12-label.png)
+#### 测试结果
 ![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/14-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/14-label.png)
 ### 预训练模型下载
-#### [OneDrive-Postdam](https://1drv.ms/u/s!ApOgV5zmgyrmhwQsafmdwnxjD27m?e=WW9H84)
+#### [OneDrive-Postdam](https://1drv.ms/u/s!ApOgV5zmgyrmhwQsafmdwnxjD27m?e=46LRSq)
 ### [Paris数据集下载](https://zenodo.org/record/1154821#.XH6HtygzbIU)
 #### 训练及验证损失
+![train accuracy](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/train_acc_paris.png)
+![train_loss](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/train_loss_paris.png)
+![val_accuracy](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/val_acc_paris.png)
+![val_loss](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/val_loss_paris.png)
+#### 测试结果
+![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/100-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/100-label.png)
+![2](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/120-true.png)![2](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/120-label.png)
+![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/150-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/150-label.png)
+#### [OneDrive-Paris](https://1drv.ms/u/s!ApOgV5zmgyrmhwcbPe_WhkUm9uZY?e=YnGYxX)
+
