@@ -15,6 +15,7 @@
 #### 参照test.py 使用model.predict对一张图片进行预测，使用model.visual可视化预测
 ### 细微差别
 #### 关于PSPPooling的实现方法略有不同，这里参照了PSPNet的做法
+### [Postdam数据集地址](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-potsdam.html)
 #### 这边将图片压缩一倍后进行训练，训练损失和验证损失
 ![train accuracy](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/train_acc.png)
 ![train_loss](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/train_loss.png)
@@ -26,4 +27,4 @@
 ![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/12-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/12-label.png)
 ![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/14-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/14-label.png)
 ### 预训练模型下载
-#### [OneDrive](https://1drv.ms/u/s!ApOgV5zmgyrmhwQsafmdwnxjD27m?e=WW9H84)
+#### [OneDrive-Postdam](https://1drv.ms/u/s!ApOgV5zmgyrmhwQsafmdwnxjD27m?e=WW9H84)
