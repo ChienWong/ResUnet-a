@@ -28,3 +28,5 @@
 ![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/14-true.png)![1](https://github.com/mohuazheliu/ResUnet-a/blob/master/material/14-label.png)
 ### 预训练模型下载
 #### [OneDrive-Postdam](https://1drv.ms/u/s!ApOgV5zmgyrmhwQsafmdwnxjD27m?e=WW9H84)
+### [Paris数据集下载](https://zenodo.org/record/1154821#.XH6HtygzbIU)
+#### 训练及验证损失
