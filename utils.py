@@ -57,7 +57,6 @@ class DataGenerator_wqw(K.utils.Sequence):
 
             img=np.asarray(img,'f')
             img=img-self.config.MEAN
-            img=img/255
             label=np.asarray(label,'f')
             images.append(img)
             labels.append(label)
